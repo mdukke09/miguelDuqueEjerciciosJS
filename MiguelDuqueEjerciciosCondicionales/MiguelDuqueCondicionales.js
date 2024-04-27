@@ -62,7 +62,7 @@ if (persona1.edad > persona2.edad) {
 }
 
 // 6.
-nombre = prompt('Ingrese su nombre');
+let nombre = prompt('Ingrese su nombre');
 let edad = parseInt(prompt('Ingrese su edad'));
 let altura = parseInt(prompt('Ingrese su altura'));
 let vision = parseInt(prompt('Ingrese su visión'));
@@ -301,7 +301,7 @@ switch (operacion) {
 }
 
 // 13.
-let nombre = prompt('Ingrese su nombre:');
+nombre = prompt('Ingrese su nombre:');
 let apellido = prompt('Ingrese su apellido:');
 let nDni = parseInt(prompt('Ingrese su DNI:'));
 let fechaNacimiento = prompt('Ingrese su fecha de nacimiento (dd/mm/aaaa):');
